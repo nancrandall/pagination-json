@@ -1,6 +1,6 @@
-# Pagination Pattern
+# Pagination with JSON
 
-> node package: a sub-project in patterns library
+> node package: vanilla JS and pagination with json
 
 ## Build Setup
 
