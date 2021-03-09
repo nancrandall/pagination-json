@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/*.html
+dist/assets
+dist/_images
+npm-debug.log
+#deploy stuff
+push

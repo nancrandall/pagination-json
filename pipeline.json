@@ -1,0 +1,31 @@
+{
+   "product-name":"pagination-pattern",
+   "application-type" : "npm",
+   "default-emails":[
+     "michael.a.mascia@kp.org"
+   ],
+   "default-hipchat-rooms":[
+      "Patterns - Pipeline Notifications"
+   ],
+   "approval-override-group" : "",
+   "stages":{
+      "npm-build":{
+         "source-directory" : "",
+         "target-directory":"",
+         "npm-run-script" : "npm run build",
+         "js-lcov-report-path" : "",
+         "ts-lcov-report-path" : "",
+         "node-library": true,
+         "skip-test-flag": true,
+         "sonar" : false,
+         "sonar-coverage-exclusions" : "",
+         "sonar-exclusions" : "",
+         "html-reports":{
+         "pipeline-coverage-report":{
+             "report-dir":"",
+             "html-file":""
+           }
+         }
+      }
+  }
+}

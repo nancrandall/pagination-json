@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pagination Pattern</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <!-- JavaScript-->
+  <script type="text/javascript" src="main.js"></script>
+  <!-- CSS-->
+  <link rel="stylesheet" href="http://cskpcloudxn1713.cloud.kp.org/styleguide-archive/3.9/main.css">
+  <link rel="stylesheet" href="pagination-pattern.css">
+</head>
+<body>
+  <div>
+    <div class="news" id="list">
+    <div class="news__article-list"></div>
+    </div>
+    <div class="kpPagination">
+    <div class="kpPagination__count"  id="page">
+    </div>
+    <nav class="kpPagination__nav" role="navigation" aria-label="Page">
+      <ul class="kpPagination__list">
+        <li class="kpPagination__item -prev" id="buttonPrevious">
+        <a class="kpPagination__link">
+          <span class="screenreader-only">Disabled previous page, pagination reached first page</span>
+          <span aria-hidden="true" role="presentation"><i class="icon-chevron-back"></i></span>
+        </a>
+        </li>
+        <span class="kpPagination__list-numbers" id="pagination"></span>
+        <li class="kpPagination__item-dropdown">
+          <select class="kpPagination__select" aria-label="Go to page" id= "kpPagination__select"></select>
+          <span class="icon-chevron-down kpPagination__selectIcon" aria-hidden="true"></span>
+        </li>
+        <li class="kpPagination__item -next" id="buttonNext">
+        <a class="kpPagination__link">
+          <span class="screenreader-only">Next Page</span>
+          <span aria-hidden="true" role="presentation"><i class="icon-chevron-forward"></i></span>
+        </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+  </html>

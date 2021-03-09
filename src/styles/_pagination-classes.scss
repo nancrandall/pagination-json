@@ -1,0 +1,7 @@
+li.kpPagination__item-dropdown {
+	display: inline-block;
+    @include media($tablet-up) {
+		display: none;
+
+	}
+}
